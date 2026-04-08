@@ -1,0 +1,328 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1771038129465,
+      "tag": "0000_gorgeous_greymalkin",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1771047909641,
+      "tag": "0001_faithful_sebastian_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1772083234466,
+      "tag": "0002_tough_lionheart",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1772084577953,
+      "tag": "0003_rapid_the_professor",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1772085196942,
+      "tag": "0004_legal_stark_industries",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1772086179315,
+      "tag": "0005_cool_shockwave",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1772317162341,
+      "tag": "0006_bent_silver_fox",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1772341194077,
+      "tag": "0007_yellow_mac_gargan",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1772343269109,
+      "tag": "0008_nervous_killer_shrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1772398532437,
+      "tag": "0009_superb_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1772578800000,
+      "tag": "0010_add_rig_session_type",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1772578900000,
+      "tag": "0011_fine_mandroid",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1772579000000,
+      "tag": "0012_calm_synch",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1772579100000,
+      "tag": "0013_awesome_felicia_hardy",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1772678848475,
+      "tag": "0014_fine_tomorrow_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1772870400000,
+      "tag": "0015_backfill_idea_status_propagation",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1772685054342,
+      "tag": "0016_nosy_iceman",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1772984919472,
+      "tag": "0017_empty_nitro",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1773050000000,
+      "tag": "0018_rls_worker_scoping",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1773060000000,
+      "tag": "0019_add_worker_name_to_messages",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1773100000000,
+      "tag": "0020_session_idempotency",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1773102000000,
+      "tag": "0021_central_worker_nullable_userid",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1773200000000,
+      "tag": "0022_add_organizations",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1773788828055,
+      "tag": "0023_common_shinobi_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1773800000000,
+      "tag": "0024_pgboss_security_definer",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1773810000000,
+      "tag": "0025_role_level_app_user_id",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1773863700000,
+      "tag": "0026_org_scoped_rls",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1773895191253,
+      "tag": "0027_volatile_mysterio",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1773969728664,
+      "tag": "0028_bent_ego",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1773971234462,
+      "tag": "0029_condemned_ultimatum",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1774061452182,
+      "tag": "0030_thankful_crusher_hogan",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1774710070005,
+      "tag": "0031_blue_shadowcat",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1774710080000,
+      "tag": "0032_add_system_instructions",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1774900000000,
+      "tag": "0033_rename_beads_to_tasks",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1775350000000,
+      "tag": "0034_add_system_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1775360000000,
+      "tag": "0035_add_worker_rig_init_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1775370000000,
+      "tag": "0036_thankful_iron_lad",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1775380000000,
+      "tag": "0037_rename_rigs_to_repos",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1775390000000,
+      "tag": "0038_add_repo_add_permission",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1775400000000,
+      "tag": "0039_add_scheduled_session_status",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1775410000000,
+      "tag": "0040_fix_stale_workspace_paths",
+      "breakpoints": true
+    },
+    {
+      "idx": 41,
+      "version": "7",
+      "when": 1775430000000,
+      "tag": "0042_add_org_invitations",
+      "breakpoints": true
+    },
+    {
+      "idx": 42,
+      "version": "7",
+      "when": 1775500000000,
+      "tag": "0043_add_org_template_fields",
+      "breakpoints": true
+    },
+    {
+      "idx": 43,
+      "version": "7",
+      "when": 1775532794193,
+      "tag": "0044_demonic_sebastian_shaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 44,
+      "version": "7",
+      "when": 1775569439550,
+      "tag": "0045_lush_blink",
+      "breakpoints": true
+    },
+    {
+      "idx": 45,
+      "version": "7",
+      "when": 1775600000000,
+      "tag": "0046_split_worker_create_permission",
+      "breakpoints": true
+    }
+  ]
+}

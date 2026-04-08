@@ -1,0 +1,57 @@
+# Full-stack docker-compose for self-hosting Praxis
+#
+# Usage:
+#   1. Copy envs/.example.env to .env and fill in Auth0 values
+#   2. docker compose -f docker-compose.full.yml up --build
+#   3. Run migrations: docker compose -f docker-compose.full.yml exec api node dist/db/migrate.js
+#   4. Open http://localhost:3000
+#
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    command: postgres -c max_connections=300 -c shared_buffers=256MB
+    environment:
+      POSTGRES_USER: praxis2_user
+      POSTGRES_PASSWORD: change_me_before_use
+      POSTGRES_DB: praxis2
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U praxis2_user -d praxis2"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: packages/api/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://praxis2_user:change_me_before_use@postgres:5432/praxis2
+    ports:
+      - "3001:3001"
+
+  web:
+    build:
+      context: .
+      dockerfile: packages/web/Dockerfile
+      args:
+        VITE_AUTH0_DOMAIN: ${VITE_AUTH0_DOMAIN}
+        VITE_AUTH0_CLIENT_ID: ${VITE_AUTH0_CLIENT_ID}
+        VITE_AUTH0_AUDIENCE: ${VITE_AUTH0_AUDIENCE}
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+
+volumes:
+  pgdata:

@@ -1,0 +1,2 @@
+ALTER TABLE "session_messages" ADD COLUMN "metadata" jsonb;--> statement-breakpoint
+CREATE INDEX idx_session_messages_structured_q ON session_messages USING gin(metadata) WHERE metadata->>'type' = 'structured_question';

@@ -1,0 +1,1 @@
+ALTER TABLE "workers" ADD COLUMN IF NOT EXISTS "rig_init_settings" jsonb;

@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-publish/
+.env
+*.env
+!envs/.example.env
+data/
+.turbo/
+*.tsbuildinfo
+drizzle/meta/
+.claude-flow/
+.claude/*
+!.claude/skills/
+.mcp.json
+.swarm/
